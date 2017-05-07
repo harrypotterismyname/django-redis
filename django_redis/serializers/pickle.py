@@ -8,6 +8,7 @@ from __future__ import absolute_import, unicode_literals
 # python version
 try:
     import dill as pickle 
+    picke.settings['recurse'] = True
 except:
     try:
         import cPickle as pickle
